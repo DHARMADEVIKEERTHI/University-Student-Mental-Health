@@ -37,23 +37,24 @@ I get the dataset on Kaggle of this link https://www.kaggle.com/datasets/junnn01
 
 16. AcademicEngagement: Engagement level in academic activities.
 
-**Understanding:** 
+**Understanding:**  I am explaining this as supervised learning (Regression) based on predicting CGPA. Otherwise it has unsupervised learning.
 
 **Depending Variable:** Variables to predict mental health outcomes or academic performance:
-Depression
-Anxiety
-PanicAttack
-CGPA
+Depression,
+Anxiety,
+PanicAttack,
+CGPA.
 
 **Independent variable:** Factors influencing the dependent variables:
-Age
-Gender
-Course
-YearOfStudy
-StudyStressLevel
-StudyHoursPerWeek
-SleepQuality
-SymptomFrequency_Last7Days
+Age,
+Gender,
+Course,
+YearOfStudy,
+StudyStressLevel,
+StudyHoursPerWeek,
+SleepQuality,
+SymptomFrequency_Last7Days.
 
-**Observation:** 
+**Observation:** Missing values in columns like Social Support, Sleep Quality, or Academic Performance could impact analysis.
+Categorical data (e.g., Gender, Field of Study) might require encoding for machine learning.
 
